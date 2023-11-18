@@ -1,0 +1,170 @@
+/* ====================css do index====================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    max-width: 375px;
+    padding: 20px;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    height: calc(100vh - 40px);
+    background-color: aqua;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    border-radius: 20px 20px 0 0;
+    background-image: url('/static/imagens/mega-sena-2-4.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+form {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    background-color: aqua;
+    border-radius: 30px;
+
+}
+
+h1 {
+    padding: 100px 20px 0 20px;
+    font-size: 24px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+input {
+    padding: 20px;
+    font-size: 20px;
+    background-color: chartreuse;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: green;
+    color: aliceblue;
+}
+
+/* ====================css do resultado====================== */
+
+body {
+    max-width: 375px;
+    padding: 20px;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    height: calc(100vh - 40px);
+    background-color: aqua;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    border-radius: 20px 20px 0 0;
+    background-image: url('/static/imagens/mega-sena-2-4.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+form {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    background-color: aqua;
+    border-radius: 30px;
+
+}
+
+h1 {
+    padding: 100px 20px 20px 20px;
+    font-size: 24px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.Resultado {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+p {
+    height: 45px;
+    width: 45px;
+    background-color: chartreuse;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: black;
+}
+
+input {
+    padding: 20px;
+    font-size: 20px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: green;
+    color: aliceblue;
+}
+
+a {
+    padding: 20px 30px;
+    background-color: grey;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
