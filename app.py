@@ -35,7 +35,7 @@ def gerar_novo_resultado():
             (dados['bola 5'] == novo_resultado[4]) &
             (dados['bola 6'] == novo_resultado[5])
         ]
-
+        
         if resultado_existente.empty:
             break
 
